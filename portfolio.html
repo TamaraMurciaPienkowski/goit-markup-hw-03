@@ -27,26 +27,31 @@
   <body>
     <div class="container">
       <header class="top">
-        <a href="index.html"
-          ><span class="logo-anterior">Web</span
-          ><span class="logo-posterior">Studio</span></a
-        >
-        <nav>
-          <ul class="navigation">
-            <li><a href="#">Agencja</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="#">Kontakt</a></li>
-          </ul>
-        </nav>
-        <aside class="contact">
-          <a href="mailto:info@devstidio.com">info@devstudio.com</a>
-          <a href="tel:+48111111111">+48 111 111 111</a>
-        </aside>
+        <div class="container-navigation">
+          <div><a href="index.html" class="logo"
+            ><span class="logo-anterior">Web</span
+            ><span class="logo-posterior">Studio</span></a
+          >
+        </div>
+          <nav>
+            <ul class="navigation">
+              <li><a href="#">Agencja</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="#">Kontakt</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="container-contact">
+          <aside class="contact">
+            <a class="mail" href="mailto:info@devstidio.com">info@devstudio.com</a>
+            <a class="tel" href="tel:+48111111111">+48 111 111 111</a>
+          </aside>
+        </div>
       </header>
     </div>
     <main>
-      <div class="container">
-        <section>
+      <section>
+        <div class="container-buttons">
           <ul class="portfolio-button-list">
             <li><button type="button">Wszystkie</button></li>
             <li><button type="button">Strony</button></li>
@@ -54,6 +59,8 @@
             <li><button type="button">Dizajn</button></li>
             <li><button type="button">Marketing</button></li>
           </ul>
+        </div>
+        <div class="container-projects">
           <ul class="projects-list">
             <li>
               <figure>
@@ -182,20 +189,22 @@
               </figure>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
     <div class="container">
       <footer class="footnote">
-        <a href="index.html"
-          ><span class="logo-anterior">Web</span
-          ><span class="logo-posterior-prim">Studio</span></a
-        >
-        <address class="address-bottom">
-          <span>m. Warszawa, Aleje Jerozolimskie 21</span>
-          <a href="mailto:info@devstidio.com">info@devstudio.com</a>
-          <a href="tel:+48111111111">+48 111 111 111</a>
-        </address>
+        <div class="container-footnote">
+          <a class="logo-bottom" href="index.html"
+            ><span class="logo-anterior">Web</span
+            ><span class="logo-posterior-prim">Studio</span></a
+          >
+          <address class="address-bottom">
+            <span>m. Warszawa, Aleje Jerozolimskie 21</span>
+            <a href="mailto:info@devstidio.com">info@devstudio.com</a>
+            <a href="tel:+48111111111">+48 111 111 111</a>
+          </address>
+        </div>
       </footer>
     </div>
   </body>

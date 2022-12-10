@@ -9,14 +9,41 @@
 
 }
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
     color: var(--title-text);
     font-family: 'Roboto', sans-serif;
 }
 
+.container-navigation{
+    display:inline-flex;
+
+}
+.top{
+    border-style: solid;
+    border-color: #ECECEC;
+    border-width: 1px;
+}
 .top a{
     text-decoration: none;
 }
+
+.logo {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    padding-left: 212px;
+}
+
+.logo-bottom {
+    padding-top:60px;
+    padding-left:215px;
+    padding-bottom:20px;
+}
+
 .logo-anterior{
   color: var(--logo-anterior);
   text-decoration: none;
@@ -52,9 +79,19 @@ body{
     cursor: pointer;
 }
 .navigation{
-    list-style-type: none;  
+    list-style-type: none;
+    padding-top: 32px;
+    padding-bottom: 32px; 
 }
 
+.navigation li{
+    width: 53px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-left:23px;
+    margin-right:23px;
+    display: inline;
+}
 .navigation a{
     color: var(--title-text);
     text-decoration: none;
@@ -62,7 +99,7 @@ body{
     font-size: 14px;
     line-height: 1.172;
     letter-spacing: 0.02em;
-    list-style-type: none; 
+    list-style-type: none;
 }
 
 .navigation a:hover{
@@ -82,6 +119,22 @@ body{
     letter-spacing: 0.02em;
 }
 
+.mail {
+    width:135px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-left: 371px;
+    margin-right: 50px;
+}
+
+.tel {
+    width:110px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-right: 230px;
+}
+
+
 .contact a:hover{
     color:var(--higlight-text);
 }
@@ -93,15 +146,25 @@ body{
 .header{
     background-color: #2F303A;
     color: #FFFFFF;
+    text-align: center;
+}
+
+.slogan{
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
-    text-align: center;
+    padding-top: 200px;
+    padding-left: 452px;
+    padding-right: 452px;
+    padding-bottom: 30px;
 }
 
+.click-to-order-button {
+    padding-bottom: 200px;
+}
 .click-to-order{
     background-color: var(--higlight-text);
     color: #FFFFFF;
@@ -112,10 +175,22 @@ body{
     letter-spacing: 0.06em;
     cursor:pointer;
     border:none;
+    padding-top: 10px;
+    padding-right: 41px;
+    padding-bottom: 10px;
+    padding-left: 42px;
+}
+
+.adventages{
+    padding-top:94px;
+    padding-bottom:94px;
+    padding-left:215px;
+    padding-right:215px;
 }
 
 .adventages li{
     list-style-type: none;
+    width: 270px;
 }
 
 .adventages h3{
@@ -135,6 +210,7 @@ body{
     line-height: 1.714;
     letter-spacing: 0.03em;
     list-style-type: none;
+    padding-top:10px;
 }
 
 .what-do-we-do{
@@ -144,13 +220,23 @@ body{
     font-size: 36px;
     line-height: 1.172;
     letter-spacing: 0.03em;
-    text-align: center; 
+    padding-left:624px;
+    padding-right:624px;
 }
 
 .what-do-we-do-list{
     list-style-type: none;
+    padding-top:50px;
+    padding-right:215px;
+    padding-bottom:94px;
+    padding-left:215px;
 }
 
+.what-do-we-do-list li{
+    display: inline;
+    margin-right:15px;
+    margin-left:15px;
+}
 .our-team{
     background-color: #F5F4FA;
 }
@@ -162,11 +248,20 @@ body{
     font-size: 36px;
     line-height: 1.172;
     letter-spacing: 0.03em;
-    text-align: center;
+    padding-top:94px;
+    padding-right:695px;
+    padding-bottom:50px;
+    padding-left:696px;
 }
 
 .our-team-list{
   list-style-type: none; 
+}
+.our-team-list li{
+    width:270px;
+    border-right: solid #ECECEC 1px;
+    border-bottom: solid #ECECEC 1px;
+    border-left: solid #ECECEC 1px;
 }
 
 .our-team-list figure{
@@ -180,6 +275,8 @@ body{
     font-size: 16px;
     line-height: 1.171;
     letter-spacing: 0.03em;
+    padding-top:30px;
+    padding-bottom:10px;
     text-align: center;
 }
 
@@ -190,12 +287,20 @@ body{
     line-height: 1.171;
     letter-spacing: 0.03em;
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .portfolio-button-list{
     list-style-type: none;
+    padding-left: 581px;
+    padding-top: 505px;
+    padding-bottom:50px;
 }
 
+.portfolio-button-list li{
+    display: inline;
+    margin-right: 8px;
+}
 .portfolio-button-list button{
     background-color: #EEEEEE;
     text-decoration: none;
@@ -205,6 +310,11 @@ body{
     letter-spacing: 0.03em;
     cursor: pointer;
     border:none;
+    width: 121px;
+    padding-top: 6px;
+    padding-right: 22px;
+    padding-bottom: 6px;
+    padding-left: 22px;
 }
 
 .portfolio-button-list button:hover {
@@ -221,6 +331,11 @@ body{
     list-style-type: none;
 }
 
+.projects-list li{
+    border: solid #EEEEEE 1px;
+    width: 370px;
+}
+
 .projects-list figure{
     cursor: pointer;
 }
@@ -232,6 +347,8 @@ body{
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    padding-top: 20px;
+    padding-left: 24px;
 }
 
 .projects-list span{
@@ -239,7 +356,10 @@ body{
     text-decoration: none;
     font-size: 16px;
     line-height: 1.87;
-    letter-spacing: 0.03em; 
+    letter-spacing: 0.03em;
+    padding-top: 4px;
+    padding-left: 24px;
+    padding-bottom: 20px; 
 }
 
 .footnote{
