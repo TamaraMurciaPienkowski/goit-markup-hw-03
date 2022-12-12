@@ -156,16 +156,12 @@ body {
   padding-left: 42px;
   margin-left: 500px;
   margin-bottom: 106px;
-  box-shadow: 0 4 4 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 /* title section end */
 
 /* adventages */
-
-.section-advantages {
-  padding-bottom: 0px;
-}
 
 .adventages {
   display: flex;
@@ -174,6 +170,7 @@ body {
 
 .adventages li {
   list-style-type: none;
+  margin-bottom: 94px;
 }
 
 .adventages h3 {
@@ -200,9 +197,6 @@ body {
 
 /* what do we do */
 
-.section-what-do-we-do {
-  padding-top: 0px;
-}
 .what-do-we-do {
   color: var(--title-text);
   text-decoration: none;
@@ -254,6 +248,7 @@ body {
   border-right: solid #ececec 1px;
   border-bottom: solid #ececec 1px;
   border-left: solid #ececec 1px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .our-team-list figure {
@@ -290,6 +285,7 @@ body {
 
 /* portfolio */
 
+/* filters */
 .portfolio-button-projects {
   padding-left: 15px;
 }
@@ -322,12 +318,16 @@ body {
 .portfolio-button-list button:hover {
   background-color: var(--higlight-text);
   color: var(--background-color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .portfolio-button-list button:focus {
   background-color: var(--higlight-text);
   color: var(--background-color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
+
+/* filters end */
 
 /* projects */
 
@@ -373,6 +373,7 @@ body {
   margin-top: 4px;
 }
 /* projects end */
+
 /* footer */
 
 .footnote {
