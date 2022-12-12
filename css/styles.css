@@ -123,8 +123,6 @@ body {
 .header {
   background-color: #2f303a;
   color: #ffffff;
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 
 .slogan {
@@ -138,6 +136,7 @@ body {
   margin-bottom: 40px;
   margin-left: 252px;
   margin-right: 252px;
+  margin-top: 106px;
 }
 
 .click-to-order {
@@ -156,11 +155,17 @@ body {
   padding-bottom: 10px;
   padding-left: 42px;
   margin-left: 500px;
+  margin-bottom: 106px;
+  box-shadow: 0 4 4 0 rgba(0, 0, 0, 0.25);
 }
 
 /* title section end */
 
 /* adventages */
+
+.section-advantages {
+  padding-bottom: 0px;
+}
 
 .adventages {
   display: flex;
@@ -194,6 +199,10 @@ body {
 /* adventages end */
 
 /* what do we do */
+
+.section-what-do-we-do {
+  padding-top: 0px;
+}
 .what-do-we-do {
   color: var(--title-text);
   text-decoration: none;
@@ -273,6 +282,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+.team-member {
+  text-align: center;
+}
+
 /* our team end */
 
 /* portfolio */
@@ -303,6 +316,7 @@ body {
   width: 121px;
   padding-top: 6px;
   padding-bottom: 6px;
+  box-shadow: 0 4 4 0 rgba(0, 0, 0, 0.25);
 }
 
 .portfolio-button-list button:hover {
@@ -372,6 +386,10 @@ body {
   margin-bottom: 20px;
 }
 
+.logo-bottom a {
+  text-decoration: none;
+}
+
 .logo-posterior-prim {
   color: var(--logo-posteriorprim);
   text-decoration: none;
@@ -386,6 +404,7 @@ body {
 
 .address-bottom {
   display: block;
+  text-decoration: none;
 }
 
 .address-bottom ul {
