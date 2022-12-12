@@ -18,39 +18,49 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+    <!-- header -->
     <header class="top">
-      <div class="container-navigation">
-        <div><a href="index.html" class="logo"
-          ><span class="logo-anterior">Web</span
-          ><span class="logo-posterior">Studio</span></a
-        >
-      </div>
-        <nav>
-          <ul class="navigation">
-            <li><a href="#">Agencja</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="#">Kontakt</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div class="container-contact">
+      <a href="index.html" class="logo"
+        ><span class="logo-anterior">Web</span
+        ><span class="logo-posterior">Studio</span></a
+      >
+      <nav>
+        <ul class="navigation">
+          <li><a href="#">Agencja</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="#">Kontakt</a></li>
+        </ul>
+      </nav>
+      <div class="contact-left">
         <aside class="contact">
-          <a class="mail" href="mailto:info@devstidio.com">info@devstudio.com</a>
+          <a class="mail" href="mailto:info@devstidio.com"
+            >info@devstudio.com</a
+          >
           <a class="tel" href="tel:+48111111111">+48 111 111 111</a>
         </aside>
       </div>
     </header>
     <main>
       <div class="container-header">
-        <section class="header">
+        <!-- main title -->
+        <section class="header" class="section">
           <h1 class="slogan">efektywne rozwiązania dla waszego biznesu</h1>
-          <div class="click-to-order-button"><button type="button" class="click-to-order">Zamów usługę</button>
-        </div>
-      </section>
+          <div class="click-to-order-button">
+            <button type="button" class="click-to-order">Zamów usługę</button>
+          </div>
+          <!-- advantages -->
+        </section>
       </div>
       <div class="container-advantages">
-        <section>
+        <section class="section">
           <ul class="adventages">
+            <li>
+              <h3>LOREM IPSUM</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
             <li>
               <h3>LOREM IPSUM</h3>
               <p>
@@ -75,8 +85,9 @@
           </ul>
         </section>
       </div>
+      <!-- what do we do -->
       <div class="container-what-do-we-do">
-        <section>
+        <section class="section">
           <h2 class="what-do-we-do">Czym się zajmujemy</h2>
           <ul class="what-do-we-do-list">
             <li>
@@ -100,12 +111,17 @@
                 width="370"
                 height="294"
                 src="images/boxthree.jpg"
-                alt="a person choosing colours on a tablet"
+                alt="a person choosing colors on a tablet"
               />
             </li>
           </ul>
         </section>
-        <section class="our-team">
+      </div>
+
+      <!-- our team -->
+
+      <section class="our-team section">
+        <div class="container-our-team-list">
           <h2 class="our-team-title">Nasz zespół</h2>
           <ul class="our-team-list">
             <li>
@@ -118,7 +134,7 @@
                 />
                 <figcaption>
                   <h3>John Doe</h3>
-                  <span>Product Designer</span>
+                  <span class="our-team-list-span">Product Designer</span>
                 </figcaption>
               </figure>
             </li>
@@ -132,7 +148,7 @@
                 />
                 <figcaption>
                   <h3>John Doe</h3>
-                  <span>Frontend Developer</span>
+                  <span class="our-team-list-span">Frontend Developer</span>
                 </figcaption>
               </figure>
             </li>
@@ -146,7 +162,7 @@
                 />
                 <figcaption>
                   <h3>John Doe</h3>
-                  <span>Marketing</span>
+                  <span class="our-team-list-span">Marketing</span>
                 </figcaption>
               </figure>
             </li>
@@ -160,26 +176,32 @@
                 />
                 <figcaption>
                   <h3>John Doe</h3>
-                  <span>UI Designer</span>
+                  <span class="our-team-list-span">UI Designer</span>
                 </figcaption>
               </figure>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
+    <!-- footer -->
     <footer class="footnote">
       <div class="container-footnote">
-        <a class="logo-bottom" href="index.html"
-          ><span class="logo-anterior">Web</span
-          ><span class="logo-posterior-prim">Studio</span></a
-        >
+        <div class="logo-bottom">
+          <a href="index.html"
+            ><span class="logo-anterior">Web</span
+            ><span class="logo-posterior-prim">Studio</span>
+          </a>
+        </div>
         <address class="address-bottom">
           <span>m. Warszawa, Aleje Jerozolimskie 21</span>
-          <a href="mailto:info@devstidio.com">info@devstudio.com</a>
+          <a class="mail-bottom" href="mailto:info@devstidio.com"
+            >info@devstudio.com</a
+          >
           <a href="tel:+48111111111">+48 111 111 111</a>
         </address>
       </div>
     </footer>
+    <!-- end of footer -->
   </body>
 </html>
